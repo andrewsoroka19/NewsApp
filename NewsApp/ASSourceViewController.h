@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ASSourceViewController.h
 //  NewsApp
 //
 //  Created by Andrew Soroka on 10/25/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ASSourceViewController : UITableViewController
 
 
 @end
