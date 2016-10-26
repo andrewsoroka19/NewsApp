@@ -35,11 +35,9 @@
 - (void)setSource:(ASSource *)sourse
 {
     _source = sourse;
-    
     self.titleLabel.text = sourse.sourceName;
     self.descriptionLabel.text = sourse.sourceDescription;
     if (sourse.sourceImageURL) {
-        // TODO: Add placeholderImage
         [self.sourceImageView sd_setImageWithURL:sourse.sourceImageURL placeholderImage:nil];
     }
 }

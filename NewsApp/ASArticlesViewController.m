@@ -18,7 +18,6 @@
 {
     [super viewDidLoad];
     [self prepareTableView];
-//    self.navigationController.navigationItem.rightBarButtonItem.enabled = NO;
 }
 
 - (void)prepareTableView
